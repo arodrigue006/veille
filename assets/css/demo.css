@@ -1,0 +1,16 @@
+h4 {
+    padding-top: 30px;
+}
+
+.cube {
+
+    height: 100%;
+    max-width: 100%;
+
+}
+
+#demo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

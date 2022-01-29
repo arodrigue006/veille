@@ -1,0 +1,35 @@
+nav {
+    margin-bottom: 0px;
+    border-radius: 0px;
+    box-shadow: 0px 4px 10px #7a7a7a;
+    z-index: 2;
+}
+
+.navbar {
+    background-color: rgb(248, 249, 250);
+
+}
+
+.navbar .navbar-nav {
+    margin: auto;
+}
+
+.navbar {
+    text-align: center;
+}
+
+li.nav-item {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 33%;
+}
+
+.navbar-nav .nav-item a.nav-link {
+    color: #da0511;
+    font-size: 1.16em;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav a:hover.nav-link {
+    color: #d47176;
+}
