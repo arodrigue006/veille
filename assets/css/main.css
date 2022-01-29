@@ -1,0 +1,35 @@
+@import 'header.css';
+@import 'nav.css';
+@import 'demo.css';
+@import 'footer.css';
+
+.card {
+  margin: 1rem;
+
+}
+
+.sommaire {
+  color: #da0511;
+}
+
+.sommaire:hover {
+  color: #da0511;
+}
+
+.menu-index {
+  z-index: 2;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+#dessin{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#img_dessin{
+  width: 50%;
+}
