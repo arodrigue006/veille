@@ -51,7 +51,7 @@ require('nav.php');
 
                     Maintenant vient l'initialisation de toutes ces variables. Pour notre container, on recupère l'élément HTML dont l'id est container, ici il s'agit d'une div dans laquelle tout sera inclus.
                     La scène comme dit précédement va nous permettre de visualiser notre cube en animation. Ici on va utiliser une caméra de type perspective(Ce mode de projection est conçu pour imiter la façon dont l'œil humain voit. C'est le mode de projection le plus couramment utilisé pour le rendu d'une scène 3D).
-                    Les options permettent de configurer le champ de vue(champ de vision (en degrès), rapport d'aspect, plan de détourage proche, plan de détourage lointain).
+                    Les options permettent de configurer le champ de vue( champ de vision (en degrès), rapport d'aspect, plan de détourage proche, plan de détourage lointain )
 
                 </p>
                 <img id="" src="assets/img/2.png" class="img-fluid" alt="Espace Détente">
