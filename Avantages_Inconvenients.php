@@ -14,7 +14,7 @@ require('nav.php');
                     <ul class="list-group list-group-flush">
                         <a class="list-group-item sommaire" href="#avantages">Avantages</a>
                         <a class="list-group-item sommaire" href="#inconvénients">Inconvénients</a>
-                        <a class="list-group-item sommaire" href="#concurrence">La concurrence</a>
+                        <a class="list-group-item sommaire" href="#concurrence">Concurrence</a>
                     </ul>
                 </div>
             </div>
@@ -55,18 +55,17 @@ De plus cela ne nécessite aucun plugins tiers pour exécuter le code. Il vous s
                 La principale concurrence reste:
 
                     BabylonJS : Un framework JavaScript complet pour créer des jeux 3D avec HTML5, WebGL, WebVR et Web Audio.
-                    Il est dont plus accès sur le développement de jeux. Three.js quant à lui est meilleur pour les visualisations et les charges 
+                    Il est plus accès sur le développement de jeux. Three.js est meilleur pour les visualisations et les charges 
                     plus légères pour les effets pour le développement Web. <br><br>
-                    Babylon est plus lourd (5x fois de ce que j'ai vu) disposant d'une Une API de niveau supérieur pour les événements 
-                    de clic et de souris sur les maillages. La caméra d'orbite par défaut a une belle physique incluse. 
+                    Babylon est plus lourd (5x fois de ce que j'ai vu) disposant d'une API de niveau supérieur pour les événements 
+                    de clic et de souris sur les maillages(objet modélisé dans un espace tridimensionnel). La caméra d'orbite par défaut a une belle physique incluse. 
                     Dans l'ensemble, c'est un peu plus proche d'être un moteur de jeu complet.
                     <br><br>
                     Babylon est probablement meilleur lorsque vous souhaitez simplement obtenir une belle vue 
                     d'un modèle et peut-être des animations / interactions pour un client en peu de temps et que vous ne souhaitez pas passer 
                     à des concepts 3D d'apprentissage en profondeur.
-                    Un endroit où trois est clairement le meilleur choix serait tout ce qui n'utilise pas beaucoup de modèles 3D exportés. 
-                    Si vous n'avez pas beaucoup de modèles, 
-                    vous n'obtenez pas grand-chose pour la taille de fichier supplémentaire de Babylon.
+                    Un endroit où Three.js est clairement le meilleur choix serait tout ce qui n'utilise pas beaucoup de modèles 3D exportés. 
+                    S'il n'y a pas beaucoup de modèles, ca ne revient à pas grand-chose pour la taille de fichier supplémentaire de Babylon.
                     <br><br>
 
             </div>
