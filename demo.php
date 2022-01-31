@@ -33,11 +33,13 @@ require('nav.php');
                 <h4 id="capsules">Déclarations des variables</h4>
 
                 <p>
-                    On commence par déclarer toutes les variables qui nous seront utiles lors de cette démo
-                    Le container dans lequel tout sera inclus,
+                    On commence par déclarer toutes les variables qui nous seront utiles lors de cette démo.
+                    Le container dans lequel tout sera inclus.
                     La scène, sans ça, rien n’est visible.
-                    Le moteur de rendu pour notre scène. Sans ça, aucune image ne sera créée et affichée à l’utilisateur.
-                    Ensuite on veut une caméra pour filmer la scène.
+                    Le moteur de rendu pour notre scène, sinon aucune image ne sera créée et affichée à l’utilisateur.
+                    Ensuite on veut une caméra pour filmer la scène. Il y a aussi la variable du cube 
+                    qui est créé grâce à deux autres variables (geometry et material) expliquées par la suite. 
+                    WIDTH et HEIHT sont des paramètres de la camera.
 
                 </p>
 
@@ -82,7 +84,7 @@ require('nav.php');
 
                 <p>
                     Maintenant vient l'ajout des éléments à la scène, ici on commence par ajouter la caméra en lui donnant une position.
-                    Puis vient l'ajout du cube ayant lui aussi des coordonnées près établies
+                    Puis vient l'ajout du cube ayant lui aussi des coordonnées près établies.
 
                     La camera sera donc placée au-dessus de la scène afin de bien voir le cube.
 
@@ -106,7 +108,7 @@ require('nav.php');
 
                 faire tourner le cylindre sur lui-même
                 demander au moteur de rendu de créer et d’afficher une image
-                rappeler cette même fonction d’animation
+                puis on rappelle cette même fonction d’animation.
                 </p>
                 <img id="" src="assets/img/6.png" class="img-fluid" alt="Responsive image">
                 <br><br>

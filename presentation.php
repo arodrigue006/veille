@@ -52,7 +52,7 @@ require('nav.php');
                     <br><br>
                     -   La caméra : comme dans la vraie vie, la caméra va montrer un point de vue de ta scène. On va parler de champs de vue, field of view (fov) en anglais, pour être précis. En bougeant cette caméra, tu vas faire rentrer ou sortir des objets de ce champ de vue. C’est ce qu’on voit dans ce champ de vue de cette caméra qui sera envoyé au moteur de rendu.
                     <br><br>
-                    -   Le moteur de rendu : le moteur de rendu prend la scène et la caméra en paramètre. Avec ça, il t’affiche tout dans le canvas HTML5 dont je te parlais au début. Le moteur de rendu va produire une image à chaque fois que ton écran est rafraichi. En général, 60 images par secondes donc. C’est ça qui donne vie à ton animation !
+                    -   Le moteur de rendu : le moteur de rendu prend la scène et la caméra en paramètre. Avec ça, il t’affiche tout dans le canvas HTML5. Le moteur de rendu va produire une image à chaque fois que ton écran est rafraichi. En général, 60 images par secondes donc. C’est ça qui donne vie à l'animation.
                     <br><br>
                     Voici ci-dessous un dessin représentant plus clairement la situation.
 
