@@ -35,8 +35,8 @@ require('nav.php');
                 <p>
                     On commence par déclarer toutes les variables qui nous seront utiles lors de cette démo. 
                     Comme on l'a vu lors de la présentation, il nous faut
-                    une scènce, sans ça, rien n’est visible; notre mesh donc ici notre variable cube qui comprend 
-                    les variables geometry et material; la camera pour filmer la scène qui utilisera
+                    une scène, sans ça, rien n’est visible; notre mesh donc ici notre variable cube qui comprend 
+                    les variables geometry et material; la caméra pour filmer la scène qui utilisera
                     ici une WIDTH et une HEIGHT comme configuration; sans oublier le moteur de rendu, renderer, 
                     sinon aucune image ne sera créée et affichée à l’utilisateur (lui aussi utilisera les variables WIDTH et HEIGHT).
                     Enfin vient le container dans lequel tout sera inclus.
@@ -50,12 +50,12 @@ require('nav.php');
                 <h4 id="SCENE">Initialisation variables de la scène</h4>
                 <p>
 
-                    Maintenant vient l'initialisation de toutes ces variables. Pour notre container, on recupère l'élément HTML 
+                    Maintenant vient l'initialisation de toutes ces variables. Pour notre container, on récupère l'élément HTML 
                     dont l'id est container, ici il s'agit d'une div dans laquelle tout sera inclus.
-                    La scène comme dit précédement va nous permettre de visualiser notre cube en animation. 
+                    La scène comme dit précédemment va nous permettre de visualiser notre cube en animation. 
                     Ici on va utiliser une caméra de type perspective(Ce mode de projection est conçu pour imiter 
                     la façon dont l'œil humain voit, c'est le mode de projection le plus couramment utilisé pour le rendu d'une scène 3D).
-                    Les paramètres mis ici permettent de configurer le champ de vue(champ de vision (en degrès), rapport d'aspect,
+                    Les paramètres mis ici permettent de configurer le champ de vue(champ de vision en degrés), rapport d'aspect,
                      plan de détourage proche, plan de détourage lointain). On initialise aussi notre moteur de 
                      rendu auquel on apportera par la suite une modification de taille.
 
@@ -92,9 +92,9 @@ require('nav.php');
 
                 <p>
                     Maintenant vient l'ajout des éléments à la scène, ici on commence par ajouter la caméra en lui donnant une position.
-                    Puis vient l'ajout du cube ayant lui aussi des coordonnées près établies.
+                    Puis vient l'ajout du cube ayant lui aussi des coordonnées pré établies.
 
-                    La camera sera donc placée au-dessus de la scène afin de bien voir le cube.
+                    La caméra sera donc placée au-dessus de la scène afin de bien voir le cube.
 
                 </p>
                 <img id="" src="assets/img/4.png" class="img-fluid" alt="Responsive image">
@@ -104,7 +104,7 @@ require('nav.php');
 
                 <h4 id="addRendu">Ajout du rendu à la scène</h4>
 
-                Ensuite, on va mettre le rendu du moteur à la taille choisie précédement et l’ajouter dans la page HTML via le canvas HTML5.
+                Ensuite, on va mettre le rendu du moteur à la taille choisie précédemment et l’ajouter dans la page HTML via le canvas HTML5.
                 </p>
                 <img id="" src="assets/img/5.png" class="img-fluid" alt="Responsive image">
                 <br><br>
@@ -112,7 +112,8 @@ require('nav.php');
 
                 <h4 id="animation">Animation du CUBE !</h4>
 
-                Pour finir, on va animer tout ça. On va créer une fonction d’animation qui va être appelée en boucle à l’infini. À chaque passage dans cette fonction on va :
+                Pour finir, on va animer tout ça. On va créer une fonction d’animation qui va être appelée en boucle à l’infini.
+                 À chaque passage dans cette fonction on va
 
                 faire tourner le cylindre sur lui-même
                 et demander au moteur de rendu de créer et d’afficher une image
