@@ -34,7 +34,7 @@ require('nav.php');
                     <br><br>
                     - Un canvas est un composant HTML qui fait partie de la spécification HTML5 et qui permet d’afficher des rendus graphiques.
                     <br><br>
-                    Donc en résumé, on a une librairie Javascript(ThreeJS) qui manipule une API Javascript pour faire du rendu graphique (WebGL) dans un composant HTML5.
+                    Donc en résumé, on a une librairie Javascript(ThreeJS) qui manipule une API Javascript pour faire du rendu graphique (WebGL) dans un composant HTML5 (Canvas).
                 </p>
 
 
@@ -44,7 +44,7 @@ require('nav.php');
 
                 <h4 id="how">Comment ça marche ?</h4>
                 <p>
-                    Pour que tout fonctionne il est necessaire de manipuler ces differents éléments :
+                    Pour que tout fonctionne il est nécessaire de manipuler ces différents éléments :
                         <br><br>
                     -   La scène : tu peux voir ça comme le monde 3D dans lequel tu vas bosser. Tu vas disposer des objets dans cette scène. Tu vas créer autant d’objets que tu veux dans ta scène via les mesh.
                     <br><br>

@@ -33,14 +33,13 @@ require('nav.php');
                 <h4 id="capsules">Déclarations des variables</h4>
 
                 <p>
-                    On commence par déclarer toutes les variables qui nous seront utiles lors de cette démo.
-                    Le container dans lequel tout sera inclus.
-                    La scène, sans ça, rien n’est visible.
-                    Le moteur de rendu pour notre scène, sinon aucune image ne sera créée et affichée à l’utilisateur.
-                    Ensuite on veut une caméra pour filmer la scène. Il y a aussi la variable du cube 
-                    qui est créé grâce à deux autres variables (geometry et material) expliquées par la suite. 
-                    WIDTH et HEIHT sont des paramètres de la camera.
-
+                    On commence par déclarer toutes les variables qui nous seront utiles lors de cette démo. 
+                    Comme on l'a vu lors de la présentation, il nous faut
+                    une scènce, sans ça, rien n’est visible; notre mesh donc ici notre variable cube qui comprend 
+                    les variables geometry et material; la camera pour filmer la scène qui utilisera
+                    ici une WIDTH et une HEIGHT comme configuration; sans oublier le moteur de rendu, renderer, 
+                    sinon aucune image ne sera créée et affichée à l’utilisateur (lui aussi utilisera les variables WIDTH et HEIGHT).
+                    Enfin vient le container dans lequel tout sera inclus.
                 </p>
 
                 <img id="" src="assets/img/1.png" class="img-fluid" alt="Capsules">
@@ -51,9 +50,14 @@ require('nav.php');
                 <h4 id="SCENE">Initialisation variables de la scène</h4>
                 <p>
 
-                    Maintenant vient l'initialisation de toutes ces variables. Pour notre container, on recupère l'élément HTML dont l'id est container, ici il s'agit d'une div dans laquelle tout sera inclus.
-                    La scène comme dit précédement va nous permettre de visualiser notre cube en animation. Ici on va utiliser une caméra de type perspective(Ce mode de projection est conçu pour imiter la façon dont l'œil humain voit. C'est le mode de projection le plus couramment utilisé pour le rendu d'une scène 3D).
-                    Les options permettent de configurer le champ de vue(champ de vision (en degrès), rapport d'aspect, plan de détourage proche, plan de détourage lointain).
+                    Maintenant vient l'initialisation de toutes ces variables. Pour notre container, on recupère l'élément HTML 
+                    dont l'id est container, ici il s'agit d'une div dans laquelle tout sera inclus.
+                    La scène comme dit précédement va nous permettre de visualiser notre cube en animation. 
+                    Ici on va utiliser une caméra de type perspective(Ce mode de projection est conçu pour imiter 
+                    la façon dont l'œil humain voit, c'est le mode de projection le plus couramment utilisé pour le rendu d'une scène 3D).
+                    Les paramètres mis ici permettent de configurer le champ de vue(champ de vision (en degrès), rapport d'aspect,
+                     plan de détourage proche, plan de détourage lointain). On initialise aussi notre moteur de 
+                     rendu auquel on apportera par la suite une modification de taille.
 
                 </p>
                 <img id="" src="assets/img/2.png" class="img-fluid" alt="Espace Détente">
@@ -61,11 +65,15 @@ require('nav.php');
 
                 <h4 id="CUBE">Initialisation de notre variable principale, le cube !</h4>
                 <p>
-                    On a déjà tout pour afficher des choses. C’est donc le tour de la création du cube via un mesh ! Pour créer un mesh on a besoin de deux choses.
+                    On a déjà tout pour afficher des choses. C’est donc le tour de la création du cube via un mesh. Pour créer un mesh on a besoin de deux choses :
+                    <br><br>
+                        - La forme géométrique que va avoir l’objet. Ici on veut un cube donc BoxGeometry est parfait pour notre besoin.
+                        <br><br>
+                        - Le matériau de cet objet. Le matériau est la version numérique de matériaux du monde réel. Les matériaux contrôlent la couleur de l’objet et le degré de réflexion ou de matité de la surface.
+                     Ici on met un matériau basique de couleur rouge.
 
-                    La forme géométrique que va avoir l’objet. Ici on veut un cube donc BoxGeometry est parfait pour notre besoin.
 
-                    Le matériau de cet objet. Le matériau est la version numérique de matériaux du monde réel. Les matériaux contrôlent la couleur de l’objet et le degré de réflexion ou de matité de la surface. Ici on met un matériau basique de couleur rouge.
+                    
 
                     Avec ces deux parties, on peut créer notre objet.
 
@@ -107,7 +115,7 @@ require('nav.php');
                 Pour finir, on va animer tout ça. On va créer une fonction d’animation qui va être appelée en boucle à l’infini. À chaque passage dans cette fonction on va :
 
                 faire tourner le cylindre sur lui-même
-                demander au moteur de rendu de créer et d’afficher une image
+                et demander au moteur de rendu de créer et d’afficher une image
                 puis on rappelle cette même fonction d’animation.
                 </p>
                 <img id="" src="assets/img/6.png" class="img-fluid" alt="Responsive image">
