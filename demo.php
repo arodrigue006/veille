@@ -55,7 +55,7 @@ require('nav.php');
                     La scène comme dit précédemment va nous permettre de visualiser notre cube en animation. 
                     Ici on va utiliser une caméra de type perspective(Ce mode de projection est conçu pour imiter 
                     la façon dont l'œil humain voit, c'est le mode de projection le plus couramment utilisé pour le rendu d'une scène 3D).
-                    Les paramètres mis ici permettent de configurer le champ de vue(champ de vision en degrés), rapport d'aspect,
+                    Les paramètres mis ici permettent de configurer le champ de vue(champ de vision en degrés, rapport d'aspect,
                      plan de détourage proche, plan de détourage lointain). On initialise aussi notre moteur de 
                      rendu auquel on apportera par la suite une modification de taille.
 
@@ -115,9 +115,9 @@ require('nav.php');
                 Pour finir, on va animer tout ça. On va créer une fonction d’animation qui va être appelée en boucle à l’infini.
                  À chaque passage dans cette fonction on va
 
-                faire tourner le cylindre sur lui-même
+                faire tourner le cube sur lui-même
                 et demander au moteur de rendu de créer et d’afficher une image
-                puis on rappelle cette même fonction d’animation.
+                puis on appelle cette fonction d’animation.
                 </p>
                 <img id="" src="assets/img/6.png" class="img-fluid" alt="Responsive image">
                 <br><br>

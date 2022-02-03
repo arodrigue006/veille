@@ -3,6 +3,11 @@
 @import 'demo.css';
 @import 'footer.css';
 
+.fixed {
+  position:fixed !important;
+  top:0;
+}
+
 .card {
   margin: 1rem;
 

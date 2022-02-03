@@ -21,7 +21,7 @@
         <div class="cube" id="container"></div>
     </div>
 
-    <script src="https://threejs.org/build/three.js"></script>
+       <script src="https://threejs.org/build/three.js"></script>
 
     <script>
         var scene, camera, cube, renderer, container, WIDTH, HEIGHT, geometry, material, cube;
@@ -64,4 +64,5 @@
 
         animate();
     </script>
+
 </body>
